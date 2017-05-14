@@ -25,7 +25,9 @@ SECRET_KEY = '5yovvx%lbe6w8k7a@u!7^(rc!az#%#=#3_9-94z(v1#2ihi$ql'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'squadran2003.pythonanywhere.com',
+]
 
 
 # Application definition
@@ -124,7 +126,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'assets'),
 ]
 
-    
+
 FIXTURE_DIRS = (
 
         os.path.join(BASE_DIR, 'fixtures'),
